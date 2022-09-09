@@ -1,0 +1,46 @@
+﻿Построение начато 09.09.2022 11:56:09.
+     1>Проект "C:\Users\Василий\Downloads\lba1\lba1\lba1.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\lba1.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\lba1.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt lba1.cpp
+         lba1.cpp
+     1>c:\users\василий\downloads\lba1\lba1\lba1.cpp(38): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304): см. объявление "scanf"
+     1>c:\users\василий\downloads\lba1\lba1\lba1.cpp(77): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277): см. объявление "gets"
+     1>c:\users\василий\downloads\lba1\lba1\lba1.cpp(79): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277): см. объявление "gets"
+     1>c:\users\василий\downloads\lba1\lba1\lba1.cpp(81): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304): см. объявление "scanf"
+     1>c:\users\василий\downloads\lba1\lba1\lba1.cpp(87): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277): см. объявление "gets"
+     1>c:\users\василий\downloads\lba1\lba1\lba1.cpp(89): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277): см. объявление "gets"
+     1>c:\users\василий\downloads\lba1\lba1\lba1.cpp(91): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304): см. объявление "scanf"
+     1>c:\users\василий\downloads\lba1\lba1\lba1.cpp(109): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304): см. объявление "scanf"
+     1>c:\users\василий\downloads\lba1\lba1\lba1.cpp(115): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128): см. объявление "getch"
+       ManifestResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Василий\Downloads\lba1\Debug\lba1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\lba1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Василий\Downloads\lba1\Debug\lba1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Василий\Downloads\lba1\Debug\lba1.lib" /MACHINE:X86 Debug\lba1.exe.embed.manifest.res
+         Debug\lba1.obj
+         Debug\stdafx.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\lba1.exe.embed.manifest" /manifest Debug\lba1.exe.intermediate.manifest
+         Для всех выходных данных обновления не требуется.
+       LinkEmbedManifest:
+         Для всех выходных данных обновления не требуется.
+         lba1.vcxproj -> C:\Users\Василий\Downloads\lba1\Debug\lba1.exe
+       FinalizeBuildStatus:
+         Файл "Debug\lba1.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\lba1.lastbuildstate".
+     1>Построение проекта "C:\Users\Василий\Downloads\lba1\lba1\lba1.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.00
