@@ -48,8 +48,10 @@ void main()
 	int arr4[4][4], sum[4]; 
 	for(int i = 0; i < 4; i++){
 		for(int j = 0; j < 4; j++){
-			arr4[i][j] = rand()/100;
+			arr4[i][j] = rand()%100;
+			printf("%3d1 ", arr4[i][j]);
 		}
+		printf("\n");
 	}
 	for(int i = 0; i < 4; i++){
 		sum[i] = 0;
@@ -91,20 +93,16 @@ void main()
 		scanf("%d", &Age);
 
 		for(int i = 0; i < 4; i++){
-			if(strcmp(Name, People[i].name) == 0){
-				if(strcmp(Surname, People[i].surname) == 0){
-					if(Age == People[i].age){
-						printf("%s %s %d", Name, Surname, Age);
-						find = false;
-						repeat = false;
-						break;
-					}
-				}
+			if(strcmp(Name, People[i].name) == 0 || strcmp(Surname, People[i].surname) == 0 || Age == People[i].age){
+				printf("\nСтудент: %s %s %d", People[i].name, People[i].surname, People[i].age);
+				find = false;
+				repeat = false;
+				break;
 			} 
 		}
 
 		if(find){
-			printf("Такого студента нет\n");
+			printf("\nТакого студента нет\n");
 			printf("Хотите продолжить поиск(0 - да, иначе - нет): ");
 			scanf("%d", &rep);
 			if(rep != 0)
